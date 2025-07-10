@@ -10,6 +10,11 @@
     border-radius: 10px;
     border: none;
 }
+.main{
+    width: 1140px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
 /* header style */
 header{
     max-width: 1440px;
@@ -63,3 +68,42 @@ nav span{
 .action-right-image{
     border-radius: 48px;
 }
+/* get-in-touch section styles */
+.get-in-touch{
+    max-width: 1140px;
+    height: 632px;
+    display: flex;
+     align-items: center;   
+     gap: 115px; 
+    margin: 92px 150px 14px;
+}
+.get-in-touch-right{
+    border: 1px solid rebeccapurple;
+    width: 50%;
+}
+.get-in-touch-right input[type="text"], .get-in-touch-right input[type="email"]{
+    font-size: 18px;
+    font-weight: 500;
+    width: 497px;
+    height: 70px;
+    margin: 8px 0; 
+    border-radius: 10px;
+    /* border: none; */
+}
+[placeholder]{ 
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 20px;
+} 
+textarea{
+     font-size: 18px;
+    font-weight: 500;
+    width: 497px;
+    margin: 8px 0; 
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px; 
+    /* border: none; */
+}
+
+
