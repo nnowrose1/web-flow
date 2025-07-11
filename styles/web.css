@@ -8,12 +8,20 @@
   font-style: normal;
 }
 
-.inter-font2 {
+.inter-font2{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+body{
+    max-width: 1440px;
+}
+main{
+    max-width: 1440px;
+    padding: 0px 150px 0px;
+    background-color: rgba(214, 221, 237, 1);
+    
+}
 .btn-primary{
     font-weight: bold;
     font-size: 16px;
@@ -26,10 +34,6 @@
 .btn-primary:hover{
     background-color: coral;
 }
-main{
-    width: 1440px;
-    background-color: whitesmoke;
-}
 /* header style */
 header{
     max-width: 1440px;
@@ -38,7 +42,9 @@ header{
     background-repeat: no-repeat;
     background-size: contain;
      justify-content: center;
-}
+     align-items: center;
+     margin: 0px;
+     }
 /* nav styles */
 nav{
     display: flex;
@@ -56,7 +62,7 @@ nav span{
 .banner{
     max-width: 905px;
     text-align: center;
-    /* margin: 158px 268px; */
+     margin: 158px 268px; 
 }
 .banner-heading{
     font-size: 65px;
@@ -65,12 +71,17 @@ nav span{
 /* action styles */
 .action{
     display: flex;
-    max-width: 1140px;
+    /* max-width: 1140px; */
     gap: 220px;  
-    margin: 100px 160px;
-    background-color: white;
-    border: 1px solid red;
-
+    padding-top: 100px;
+  /* padding: 100px 160px;  */
+  align-items: center;
+ justify-content: space-between;
+    /* background-color: white; */
+     /* border: 1px solid red;  */
+    margin-top: 0px;
+    margin-bottom: 116px;
+    background-color: rgba(214, 221, 237, 1);
 }
 .action-left{
     width: 50%;
@@ -82,20 +93,89 @@ nav span{
 }
 .action-left-subtitle{
     font-size: 24px;
-    color: #252432;
+    color:rgba(37, 36, 50, 0.5);
 }
 .action-right-image{
     border-radius: 48px;
 }
+/* users section styles */
+.users{
+    /* max-width: 1140px; */
+    height: 306px;
+    text-align: center;
+    padding: 50px 80px;
+    /* border: 1px solid rebeccapurple; */
+    border-radius: 24px;
+    margin: 0 auto;
+    background-color: rgba(78, 71, 255, 0.1);
+    margin-bottom: 137px;
+}
+.user-class{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+}
+.user-class span{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+.user-class h4{
+    font-size: 20px;
+     color: rgba(0, 0, 0, 0.5);
+     margin-top: 0px;
+     font-weight: 400px;
+}
+.user-class h3{
+     margin-bottom: 0px;
+}
+
+/* user rating section */
+.ratings{
+    max-width: 1140px;
+    height: 342px;
+    margin-bottom: 93px;
+    /* background-color: white; */
+}
+.rating{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    /* padding: 20px;     */
+    margin-top: 50px;
+    /* margin: 0 auto; */
+}
+.user-rating-1, .user-rating-2, .user-rating-3{
+   width: 367px;
+    height: 242px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 14px;
+}
+.user-detail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* justify-content: space-around; */
+    /* margin: 0 auto; */
+}
+
 /* get-in-touch section styles */
 .get-in-touch{
     max-width: 1140px;
     height: 632px;
     display: flex;
-     align-items: center;   
-     gap: 115px; 
-    margin: 92px 150px 14px;
-    background-color: whitesmoke;
+    align-items: center;   
+    gap: 115px; 
+    margin: 0 auto;
+    /* padding: 71px 0;  */
+    /* background-color: whitesmoke; */
+    background-color: rgba(214, 221, 237, 1);
+    /* border: 1px solid red; */
+    margin-left: 0px;
 }
 .get-in-touch-right{
     width: 50%;
@@ -109,6 +189,7 @@ nav span{
     margin: 8px 0; 
     border-radius: 10px;
     padding-left: 20px;
+    background: #FFFFFF;
 }
 textarea{
    font-weight: 400;
@@ -123,10 +204,11 @@ textarea{
 }
 /* footer styles */
 footer{
-    max-width: 531px;
+    max-width: 1440px;
     height: 221px;
     text-align: center;
-    margin: 104px 455px;
+    padding: 104px 455px;
+    background-color: white;
 }
 footer label{
     font-size: 18px;
